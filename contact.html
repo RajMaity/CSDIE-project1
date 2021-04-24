@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Contact</title>
+	<style>
+		ul
+		{
+ 			list-style-type: none;
+ 			margin: 0px;
+ 			padding:0px;
+ 			width: 200px;
+ 			background-color: #f2f2f2;
+ 			border-color: red;
+ 			border-style: solid;
+ 			position: fixed;
+ 			overflow: visible;
+
+		}
+		li a
+		{
+			display: block;
+			color: #000;
+			padding: 16px;
+			text-decoration: none;
+		}
+		li a:hover
+		{
+			background-color:#555;
+			color: white; 
+		}
+		li a.active
+		{
+			background-color: #4dffff;
+		}
+		p
+		{
+			margin-left: 300px;
+		}
+		h1
+		{
+			text-align: center;
+			color: #ff3333;
+			font-style: italic;
+		}
+		h3
+		{
+			text-align: left;
+           margin-left: 300px;
+           font-style: italic;
+		}
+	</style>
+</head>
+<body style="background-color: #ccffff">
+	<h1><u>About section</u></h1>
+    <ul>
+    	<li><a href="index.html" >Home</a></li>
+    	<li><a href="about.html">About</a></li>
+    	<li><a href="news.html">News</a></li>
+    	<li><a href="#" class="active" >Contact</a></li>
+    </ul>
+    <div style="margin-left: 300px">
+	<form >
+		
+		<label for="Input">Username</label>
+		<input type="Text" name="Username"><br>
+		<label for="Password">Password</label>
+		<input type="Password" name="Password"><br><br>
+		<label for="Email">Enter Email</label>
+		<input type="Email" name="email"><br><br>
+		<label for="file upload">File Upload</label>
+		<input type="file" name="file upload"><br><br>
+		<label for="DOB">Date Of Birth</label>
+		<input type="date" name="dob"><br><br>
+		<label for="Search">Search</label>
+		<input type="Search" name="search"><br><br>
+		<label for="time">Select Time</label>
+		<input type="time" name="time"><br><br>
+		<input type="reset" name=""><br><br>
+		<input type="submit" name=""><br><br>
+	</form><br><hr>
+	<form>
+		<h1>Color Field</h1>
+		<label for="Color">Select color</label>
+		<input type="color" name="Color" value="#ff0000"><br><br>
+	</form><hr>
+	<form>
+		<h1>Text Input Field</h1>
+		<label for="FirstName">First Name</label>
+		<input type="text"><br><br>
+		<label for="LastName">First Name</label>
+		<input type="text"><br><br>
+		<label for="College">First Name</label>
+		<input type="text"><br><br>
+	</form>
+	<hr>
+	<form>
+		<h1>Radio Button Inputs</h1>
+		<label>Male</label>
+		<input type="radio" value="male" name="gender"><br>
+		<label>Female</label>
+		<input type="radio" value="female" name="gender"><br>
+		<label>Other</label>
+		<input type="radio" value="other" name="gender"><br>
+	</form>
+	<br><hr>
+	<form>
+		<h1>Corona Symptoms</h1>
+		<label>Cold cough</label>
+		<input type="checkbox" name="Sym1" value="Cold"><br>
+		<label>Cold cough</label>
+		<input type="checkbox" name="Sym1" value="Cold"><br>
+		<label>Cold cough</label>
+		<input type="checkbox" name="Sym1" value="Cold"><br>
+		<label>Cold cough</label>
+		<input type="checkbox" name="Sym1" value="Cold">
+
+	</form>
+</div>
+ <br><br>
+    <marquee text-size="10px" font-color="#ff3333" hspace="40%" width="20%">
+   <b>Thanks for tunning in to this website!</b> 
+</marquee>
+</body>
+</html>
